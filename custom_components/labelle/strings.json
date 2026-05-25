@@ -1,0 +1,20 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "title": "Connect to Labelle Web",
+          "description": "Enter the URL of your running Labelle Web server.",
+          "data": {
+            "url": "Labelle Web URL"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "Could not connect to Labelle Web. Check the URL and make sure the server is running.",
+        "unknown": "Unexpected error."
+      },
+      "abort": {
+        "already_configured": "This Labelle Web server is already configured."
+      }
+    }
+  }
